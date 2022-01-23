@@ -16,7 +16,7 @@
           }, 
           "url": "https://github.com/renesas/ArduinoCore-rl78/archive/refs/tags/1.8.16-rl78-1.0.0.zip", 
           "archiveFileName": "ArduinoCore-rl78-1.8.16-rl78-1.0.0.zip", 
-          "checksum": "SHA-256:7B1A649FC383FE9E101619BA7B611804ADC8A70048E15A4069DA7A3411FAB869", 
+          "checksum": "SHA-256:2f8eb962bec866acc19f67625b45d82fabb8520a14819fc505f35e85b4f85457", 
           "size": "1731152", 
           "boards": [
             {
@@ -59,7 +59,7 @@
               "host": "i686-mingw32", 
               "url": "https://github.com/renesas/ArduinoCore-rl78/releases/download/1.8.16-rl78-1.0.0/win32-tool-rl78g2x-1.0.0.zip", 
               "archiveFileName": "win32-tool-rl78g2x-1.0.0.zip", 
-              "checksum": "SHA-256:C7412B90BB844744A30C1752064CBE3AA9B1184A2EBFD1B417842E83682401C0", 
+              "checksum": "SHA-256:c7412b90bb844744a30c1752064cbe3aa9b1184a2ebfd1b417842e83682401c0", 
               "size": "202222"
             }
           ]
