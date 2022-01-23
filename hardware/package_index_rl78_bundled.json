@@ -20,7 +20,7 @@
           "size": "1731152", 
           "boards": [
             {
-              "name": "RL78-G23 Fast Prototyping Board 64Pin"
+              "name": "RL78/G23-64p Fast Prototyping Board"
             }
           ], 
           "toolsDependencies": [
