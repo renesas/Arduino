@@ -15,7 +15,7 @@
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
           "url": "https://github.com/renesas/ArduinoCore-rl78/archive/refs/tags/1.8.16-rl78-1.0.0.zip", 
-          "archiveFileName": "1.8.16-rl78-1.0.0.zip", 
+          "archiveFileName": "ArduinoCore-rl78-1.8.16-rl78-1.0.0.zip", 
           "checksum": "SHA-256:7B1A649FC383FE9E101619BA7B611804ADC8A70048E15A4069DA7A3411FAB869", 
           "size": "1731152", 
           "boards": [
