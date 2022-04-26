@@ -9,7 +9,7 @@
         {
           "name": "RL78/G23", 
           "architecture": "rl78g23", 
-          "version": "1.0.0", 
+          "version": "1.1.1", 
           "category": "Contributed", 
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
