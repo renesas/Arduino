@@ -14,10 +14,10 @@
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78/archive/refs/tags/1.8.16-rl78-1.0.0.zip", 
-          "archiveFileName": "ArduinoCore-rl78-1.8.16-rl78-1.0.0.zip", 
-          "checksum": "SHA-256:2f8eb962bec866acc19f67625b45d82fabb8520a14819fc505f35e85b4f85457", 
-          "size": "1731152", 
+          "url": "https://github.com/renesas/ArduinoCore-rl78/archive/refs/tags/1.8.16-rl78-1.1.1.zip", 
+          "archiveFileName": "ArduinoCore-rl78-1.8.16-rl78-1.1.1.zip", 
+          "checksum": "SHA-256:13ee7f90bf2f79e566e9552dfaab51cda1144beeffd0c3ce375235cacc6c2ad8", 
+          "size": "1918886", 
           "boards": [
             {
               "name": "RL78/G23-64p Fast Prototyping Board"
@@ -57,7 +57,7 @@
           "systems": [
             {
               "host": "i686-mingw32", 
-              "url": "https://github.com/renesas/ArduinoCore-rl78/releases/download/1.8.16-rl78-1.0.0/win32-tool-rl78g2x-1.0.0.zip", 
+              "url": "https://github.com/renesas/ArduinoCore-rl78/releases/download/1.8.16-rl78-1.1.1/win32-tool-rl78g2x-1.0.0.zip", 
               "archiveFileName": "win32-tool-rl78g2x-1.0.0.zip", 
               "checksum": "SHA-256:c7412b90bb844744a30c1752064cbe3aa9b1184a2ebfd1b417842e83682401c0", 
               "size": "202222"
