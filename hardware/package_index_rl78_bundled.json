@@ -14,7 +14,7 @@
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78/archive/refs/tags/Library-rl78-1.8.16-rl78-1.3.0", 
+          "url": "https://github.com/renesas/ArduinoCore-rl78/releases/download/1.8.16-rl78-1.3.0/Library-rl78-1.8.16-rl78-1.3.0.zip", 
           "archiveFileName": "ArduinoCore-Library-rl78-1.8.16-rl78-1.3.0.zip", 
           "checksum": "SHA-256:e413f526b3c593e49217e45b4a62acf2cb8472a38db5c7522755f545a619f209", 
           "size": "1931214", 
