@@ -9,15 +9,15 @@
         {
           "name": "RL78/G23", 
           "architecture": "rl78g23", 
-          "version": "1.2.1", 
+          "version": "1.3.0", 
           "category": "Contributed", 
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78/archive/refs/tags/1.8.16-rl78-1.2.1.zip", 
-          "archiveFileName": "ArduinoCore-rl78-1.8.16-rl78-1.2.1.zip", 
-          "checksum": "SHA-256:f55aa77a3af591e28893ce56c6858035bfde278f272536b1378995cac2d6c099", 
-          "size": "1985731", 
+          "url": "https://github.com/renesas/ArduinoCore-rl78/archive/refs/tags/Library-rl78-1.8.16-rl78-1.3.0", 
+          "archiveFileName": "ArduinoCore-Library-rl78-1.8.16-rl78-1.3.0.zip", 
+          "checksum": "SHA-256:e413f526b3c593e49217e45b4a62acf2cb8472a38db5c7522755f545a619f209", 
+          "size": "1931214", 
           "boards": [
             {
               "name": "RL78/G23-64p Fast Prototyping Board"
@@ -44,10 +44,10 @@
           "systems": [
             {
               "host": "i686-mingw32", 
-              "url": "https://llvm-gcc-renesas.com/downloads/download.php?f=rl78/10.0.0.202207/llvm-10.0.0.202207-rl78-elf.zip", 
-              "archiveFileName": "llvm-10.0.0.202207-rl78-elf.zip", 
-              "checksum": "SHA-256:e81f9e57bf9b523ba530edc3aa9ebf37d0993d6f65c7db6dfdfe5e54997a412a", 
-              "size": "153067111"
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?f=rl78/10.0.0.202209/llvm-10.0.0.202209-rl78-elf.zip", 
+              "archiveFileName": "llvm-10.0.0.202209-rl78-elf.zip", 
+              "checksum": "SHA-256:17a1a8b362de358050a69e37ecb7c86523d6967cba6df63b703994c669f9a2ac", 
+              "size": "149440013"
             }
           ]
         }, 
@@ -57,7 +57,7 @@
           "systems": [
             {
               "host": "i686-mingw32", 
-              "url": "https://github.com/renesas/ArduinoCore-rl78/releases/download/1.8.16-rl78-1.2.1/win32-tool-rl78g2x-1.0.1.zip", 
+              "url": "https://github.com/renesas/ArduinoCore-rl78/releases/download/1.8.16-rl78-1.3.0/win32-tool-rl78g2x-1.0.1.zip", 
               "archiveFileName": "win32-tool-rl78g2x-1.0.1.zip", 
               "checksum": "SHA-256:8b502ac611e22476fa76f257b27c3cd20a0e5a61def0293c21c8ad97fb17db05", 
               "size": "194298"
