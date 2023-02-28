@@ -1,0 +1,68 @@
+{
+  "packages": [
+    {
+      "name": "renesas", 
+      "maintainer": "Renesas Electronics Corporation", 
+      "websiteURL": "https://github.com/renesas/Arduino", 
+      "email": "Middle_support@lm.renesas.com", 
+      "platforms": [
+        {
+          "name": "RL78/G22-48p Fast Prototyping Board", 
+          "architecture": "rl78g22_fpb_p48", 
+          "version": "2.0.0", 
+          "category": "Contributed", 
+          "help": {
+            "online": "https://github.com/renesas/Arduino/wiki"
+          }, 
+          "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb_48p/archive/refs/tags/rl78-2.0.0-technical-preview.zip", 
+          "archiveFileName": "ArduinoCore-rl78g22_fpb_48p-rl78-2.0.0-technical-preview.zip", 
+          "checksum": "SHA-256:d335d3580faffe11180f8da451622cb7df8a727c4dfbcb33ac845c11d00fa6cf", 
+          "size": "1921016", 
+          "boards": [
+            {"name": "RL78/22-48p Fast Prototyping Board"}
+          ], 
+          "toolsDependencies": [
+            {
+              "name": "llvm-rl78", 
+              "packager": "renesas", 
+              "version": "10.0.0"
+            }, 
+            {
+              "name": "rl78", 
+              "packager": "renesas", 
+              "version": "1.0.1"
+            }
+          ]
+        }
+      ], 
+      "tools": [
+        {
+          "name": "llvm-rl78", 
+          "version": "10.0.0", 
+          "systems": [
+            {
+              "host": "i686-mingw32", 
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?f=rl78/10.0.0.202209/llvm-10.0.0.202209-rl78-elf.zip", 
+              "archiveFileName": "llvm-10.0.0.202209-rl78-elf.zip", 
+              "checksum": "SHA-256:17a1a8b362de358050a69e37ecb7c86523d6967cba6df63b703994c669f9a2ac", 
+              "size": "149440013"
+            }
+          ]
+        }, 
+        {
+          "name": "rl78", 
+          "version": "1.0.1", 
+          "systems": [
+            {
+              "host": "i686-mingw32", 
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb_48p/releases/download/rl78-2.0.0-technical-preview/win32-tool-rl78g2x-1.0.1.zip", 
+              "archiveFileName": "win32-tool-rl78g2x-1.0.1.zip", 
+              "checksum": "SHA-256:302fa54d71bf995aa1ba35feaccc68d52807bda07aed9be0852146ff13b4e0b7", 
+              "size": "192274"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
