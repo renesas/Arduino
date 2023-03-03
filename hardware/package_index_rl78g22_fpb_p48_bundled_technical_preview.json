@@ -16,8 +16,8 @@
           }, 
           "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb_48p/archive/refs/tags/rl78-2.0.0-technical-preview.zip", 
           "archiveFileName": "ArduinoCore-rl78g22_fpb_48p-rl78-2.0.0-technical-preview.zip", 
-          "checksum": "SHA-256:ae2599246ad4afd1370990cba003fdabe6b84608d0a05199d0daf3297b7bc6c6", 
-          "size": "1862378", 
+          "checksum": "SHA-256:f47d7c2b6c76a90929e00d04c43378969961683941c74f191aa0fa5250c21ae7", 
+          "size": "1923493", 
           "boards": [
             {"name": "RL78/22-48p Fast Prototyping Board"}
           ], 
