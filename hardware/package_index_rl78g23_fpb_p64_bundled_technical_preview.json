@@ -16,8 +16,8 @@
           }, 
           "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/archive/refs/tags/rl78-2.0.0-technical-preview.zip", 
           "archiveFileName": "ArduinoCore-rl78g23_fpb_64p-rl78-2.0.0-technical-preview.zip", 
-          "checksum": "SHA-256:b1f02b4aca7c010f3ebb92f6e7eb07a09b956f53db5da61f617bd7605dcee9fc", 
-          "size": "2025394", 
+          "checksum": "SHA-256:944b4ce49f28def1bd5c3970113fa212acbcdcf619b05cb7ac2a437e77c71971", 
+          "size": "2014666", 
           "boards": [
             {"name": "RL78/G23-64p Fast Prototyping Board"}
           ], 
