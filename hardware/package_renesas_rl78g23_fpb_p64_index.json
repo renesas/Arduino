@@ -14,10 +14,10 @@
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.0.0/core-ArduinoCore-rl78g22-fpb-2.0.0.zip", 
+          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.0.0/core-ArduinoCore-rl78g23-fpb-p64-2.0.0.zip", 
           "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.0.0.zip", 
-          "checksum": "SHA-256:1944d20d49f11ffaddb5a0cb1c28c27098510572678b02a6785bfd51fa9e88a4",
-          "size": "1898305",
+          "checksum": "SHA-256:3c6747418d2843af1e3fee9b6fc542783bc124513e3aeec5b506139cb9fda4e0",
+          "size": "1985725",
           "boards": [
             {
               "name": "RL78/G23-64p Fast Prototyping Board"
