@@ -9,15 +9,15 @@
         {
           "name": "RL78/G15-20p Fast Prototyping Board", 
           "architecture": "rl78g15_fpb_p20", 
-          "version": "1.0.0", 
+          "version": "1.1.0", 
           "category": "Contributed", 
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78g15_fpb_20p/releases/download/1.8.16-rl78-1.0.0/Library-rl78g15-fpb-20p-1.8.16-1.0.0.zip", 
-          "archiveFileName": "Library-rl78g15-fpb-20p-1.8.16-1.0.0.zip", 
-          "checksum": "SHA-256:cb5e0cd2636cb5b47cddf0689cde37d393c648b83fa84c3096077a5a123ab021", 
-          "size": "1614038", 
+          "url": "https://github.com/renesas/ArduinoCore-rl78g15_fpb_20p/releases/download/1.8.16-rl78-1.1.0/Library-rl78g15-fpb-20p-1.8.16-1.1.0.zip", 
+          "archiveFileName": "Library-rl78g15-fpb-20p-1.8.16-1.1.0.zip", 
+          "checksum": "SHA-256:3273946da30feb9d6aed8110240ab512c4b7a5a299b5e04e11c03a1c03fc276e", 
+          "size": "1623275", 
           "boards": [
             {"name": "RL78/G15-20p Fast Prototyping Board"}
           ], 
