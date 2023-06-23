@@ -1,0 +1,70 @@
+{
+  "packages": [
+    {
+      "name": "renesas",
+      "maintainer": "Renesas Electronics Corporation",
+      "websiteURL": "https://github.com/renesas/Arduino",
+      "email": "Middle_support@lm.renesas.com",
+      "platforms": [
+        {
+          "name": "RL78/G16 Fast Prototyping Board",
+          "architecture": "rl78g16_fpb",
+          "version": "1.0.0",
+          "category": "Contributed", 
+          "help": {
+            "online": "https://github.com/renesas/Arduino/wiki"
+          }, 
+          "url": "https://github.com/renesas/ArduinoCore-rl78g16_fpb/releases/download/rl78-1.0.0/core-ArduinoCore-rl78g16-fpb-1.0.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g16-fpb-1.0.0.zip",
+          "checksum": "SHA-256:4ab7edfb068616750072f8e4b251094af4c828e9e2e7ecd6bdb4ad1254288f4d",
+          "size": "1820882",
+          "boards": [
+            {
+              "name": "RL78/G16 Fast Prototyping Board"
+            }
+          ], 
+          "toolsDependencies": [
+            {
+              "name": "llvm-rl78",
+              "packager": "renesas",
+              "version": "10.0.0.202303"
+            }, 
+            {
+              "name": "rl78",
+              "packager": "renesas",
+              "version": "1.1.0-g1x"
+            }
+          ]
+        }
+      ], 
+      "tools": [
+        {
+          "name": "llvm-rl78",
+          "version": "10.0.0.202303",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?f=rl78/10.0.0.202303/llvm-10.0.0.202303-rl78-elf.zip",
+              "archiveFileName": "llvm-10.0.0.202303-rl78-elf.zip",
+              "checksum": "SHA-256:55fe9eb922e73b9ec869e93b891975dfe0e3684b1bcbab9c6a6de8ccf261139b",
+              "size": "152263629"
+            }
+          ]
+        }, 
+        {
+          "name": "rl78",
+          "version": "1.1.0-g1x",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g16_fpb/releases/download/rl78-1.0.0/win32-tool-rl78g1x-1.1.0.zip",
+              "archiveFileName": "win32-tool-rl78g1x-1.1.0.zip",
+              "checksum": "SHA-256:8818a398fc910fb15413d2b9de4ca30d2cad7dbaf58cbdb95a5e94ba2cd1bf6b",
+              "size": "191192"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
