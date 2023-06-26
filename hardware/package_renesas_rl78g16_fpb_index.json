@@ -16,8 +16,8 @@
           }, 
           "url": "https://github.com/renesas/ArduinoCore-rl78g16_fpb/releases/download/rl78-1.0.0/core-ArduinoCore-rl78g16-fpb-1.0.0.zip",
           "archiveFileName": "core-ArduinoCore-rl78g16-fpb-1.0.0.zip",
-          "checksum": "SHA-256:4ab7edfb068616750072f8e4b251094af4c828e9e2e7ecd6bdb4ad1254288f4d",
-          "size": "1820882",
+          "checksum": "SHA-256:918bada8b70e515dd73ff93ac0cbb5a4a8cb975b48fa837f4fa7cdf31cbb8883",
+          "size": "1823114",
           "boards": [
             {
               "name": "RL78/G16 Fast Prototyping Board"
