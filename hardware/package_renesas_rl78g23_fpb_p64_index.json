@@ -9,15 +9,15 @@
         {
           "name": "RL78/G23-64p Fast Prototyping Board",
           "architecture": "rl78g23_fpb_p64",
-          "version": "2.1.0",
+          "version": "2.2.0",
           "category": "Contributed", 
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.1.0/core-ArduinoCore-rl78g23-fpb-p64-2.1.0.zip", 
-          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.1.0.zip",
-          "checksum": "SHA-256:5a201305b7c45952fcf2e5abc389c7e10df46d6f60566755cd184af8022e9400",
-          "size": "2024512",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.2.0/core-ArduinoCore-rl78g23-fpb-p64-2.2.0.zip", 
+          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.2.0.zip",
+          "checksum": "SHA-256:eeb2b35e7bd3ca7be777ee123bf79b3cae5a6fd31eb7f81c19fa93d910efa016",
+          "size": "2040520",
           "boards": [
             {
               "name": "RL78/G23-64p Fast Prototyping Board"
@@ -32,7 +32,7 @@
             {
               "name": "rl78",
               "packager": "renesas",
-              "version": "1.2.0-g2x"
+              "version": "1.2.1-g2x"
             }
           ]
         }
@@ -53,14 +53,14 @@
         }, 
         {
           "name": "rl78",
-          "version": "1.2.0-g2x",
+          "version": "1.2.1-g2x",
           "systems": [
             {
               "host": "i686-mingw32", 
-              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.1.0/win32-tool-rl78g2x-1.2.0.zip",
-              "archiveFileName": "win32-tool-rl78g2x-1.2.0.zip",
-              "checksum": "SHA-256:a6de04b75bd37433231351c85f610b65adb48cfc56f25e7a0b9e95cb593ff93b",
-              "size": "194032"
+              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.2.0/win32-tool-rl78g2x-1.2.1.zip",
+              "archiveFileName": "win32-tool-rl78g2x-1.2.1.zip",
+              "checksum": "SHA-256:832042bf716d8a8cea3ce10eca2c0faa2dae20518ea0e14f57ce8c2cda06ae3d",
+              "size": "186894"
             }
           ]
         }
