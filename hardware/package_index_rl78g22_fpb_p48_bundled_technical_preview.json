@@ -66,8 +66,8 @@
               "host": "x86_64-pc-linux-gnu",
               "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.2.0-technical-preview/x86_64-linux-gnu-tool-rl78g2x-1.0.0.tar.gz",
               "archiveFileName": "x86_64-linux-gnu-tool-rl78g2x-1.0.0.tar.gz",
-              "checksum": "SHA-256:a8b43b61beacfc543168702307e145c02f8b5b682dee3607dea92702c07730ab",
-              "size": "138868"
+              "checksum": "SHA-256:016ff755ebb1689f9080e768708ca9d9cf2992397faa15e20d8841e2eb1ee216",
+              "size": "138921"
             },
             {
               "host": "i686-mingw32",
