@@ -14,10 +14,10 @@
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/arduinocore-rl78g23_fpb_64p/releases/download/rl78-2.3.0-technical-preview/core-ArduinoCore-rl78g23-fpb-p64-2.3.0.zip",
+          "url": "https://github.com/renesas/arduinocore-rl78g23_fpb_64p/releases/download/rl78-2.3.0-technical-preview-v2/core-ArduinoCore-rl78g23-fpb-p64-2.3.0.zip",
           "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.3.0.zip",
-          "checksum": "SHA-256:25358f4c329549c5b63d94b87afe5eae78c2eb61d7d8c84a1d8f901fef3ac48c",
-          "size": "4647352",
+          "checksum": "SHA-256:b351809bac09af2b2965797ed6ceedc77a6312c378c254c8328c0970e38b86ad",
+          "size": "4652215",
           "boards": [
             {
               "name": "RL78/G23-64p Fast Prototyping Board"
@@ -64,14 +64,14 @@
           "systems": [
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/renesas/arduinocore-rl78g23_fpb_64p/releases/download/rl78-2.3.0-technical-preview/x86_64-linux-gnu-tool-rl78g2x-1.0.0.tar.gz",
+              "url": "https://github.com/renesas/arduinocore-rl78g23_fpb_64p/releases/download/rl78-2.3.0-technical-preview-v2/x86_64-linux-gnu-tool-rl78g2x-1.0.0.tar.gz",
               "archiveFileName": "x86_64-linux-gnu-tool-rl78g2x-1.0.0.tar.gz",
               "checksum": "SHA-256:016ff755ebb1689f9080e768708ca9d9cf2992397faa15e20d8841e2eb1ee216",
               "size": "138921"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/renesas/arduinocore-rl78g23_fpb_64p/releases/download/rl78-2.3.0-technical-preview/win32-tool-rl78g2x-1.2.1.zip",
+              "url": "https://github.com/renesas/arduinocore-rl78g23_fpb_64p/releases/download/rl78-2.3.0-technical-preview-v2/win32-tool-rl78g2x-1.2.1.zip",
               "archiveFileName": "win32-tool-rl78g2x-1.2.1.zip",
               "checksum": "SHA-256:832042bf716d8a8cea3ce10eca2c0faa2dae20518ea0e14f57ce8c2cda06ae3d",
               "size": "186894"
