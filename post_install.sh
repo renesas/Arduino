@@ -5,7 +5,7 @@ renesas_rl78_arduino_core_rules () {
     echo "# Renesas RL78 Arduino UDEV rules"
     echo ""
 cat <<EOF
-ACTION=="add", KERNEL=="ttyUSB*", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", GROUP="dialout", MODE="0666", RUN+="/bin/sh -c 'echo 5 > /sys/bus/usb-serial/devices/$kernel/\latency_timer'"
+ACTION=="add", KERNEL=="ttyUSB*", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", GROUP="dialout", MODE="0666", RUN+="/bin/sh -c 'echo 5 > /sys/bus/usb-serial/devices/\$kernel/latency_timer'"
 EOF
 }
 
