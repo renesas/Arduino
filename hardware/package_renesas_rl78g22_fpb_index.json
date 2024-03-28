@@ -9,15 +9,15 @@
         {
           "name": "RL78/G22 Fast Prototyping Board",
           "architecture": "rl78g22_fpb",
-          "version": "2.2.0",
+          "version": "2.2.1",
           "category": "Contributed", 
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.2.0/core-ArduinoCore-rl78g22-fpb-2.2.0.zip",
-          "archiveFileName": "core-ArduinoCore-rl78g22-fpb-2.2.0.zip",
-          "checksum": "SHA-256:1206a8dca65ae7d2b326bb6405f7442fca7ddc8c385207800fa4a579482c12ea",
-          "size": "4517731",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.2.1/core-ArduinoCore-rl78g22-fpb-2.2.1.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g22-fpb-2.2.1.zip",
+          "checksum": "SHA-256:95e3624fe8313f762d1768a24d11cf151c1cd20c32c93aa51199a1b654cfd874",
+          "size": "4517235",
           "boards": [
             {
               "name": "RL78/G22 Fast Prototyping Board"
@@ -64,14 +64,14 @@
           "systems": [
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.2.0/x86_64-linux-gnu-tool-rl78g2x-1.0.0.tar.gz",
-              "archiveFileName": "x86_64-linux-gnu-tool-rl78g2x-1.0.0.tar.gz",
-              "checksum": "SHA-256:016ff755ebb1689f9080e768708ca9d9cf2992397faa15e20d8841e2eb1ee216",
-              "size": "138921"
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.2.1/x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
+              "archiveFileName": "x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
+              "checksum": "SHA-256:aee9025e3149340a545c5e1815b4df2c8a022ab5e389f3421bde6e6886f122ef",
+              "size": "138937"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.2.0/win32-tool-rl78g2x-1.2.1.zip",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.2.1/win32-tool-rl78g2x-1.2.1.zip",
               "archiveFileName": "win32-tool-rl78g2x-1.2.1.zip",
               "checksum": "SHA-256:832042bf716d8a8cea3ce10eca2c0faa2dae20518ea0e14f57ce8c2cda06ae3d",
               "size": "186894"
