@@ -9,15 +9,15 @@
         {
           "name": "RL78/G23-64p Fast Prototyping Board",
           "architecture": "rl78g23_fpb_p64",
-          "version": "2.3.1",
+          "version": "2.3.2",
           "category": "Contributed", 
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.3.1/core-ArduinoCore-rl78g23-fpb-p64-2.3.1.zip",
-          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.3.1.zip",
-          "checksum": "SHA-256:49643cf4f25c9b7abd27c8e75117b1b764ec1f0fd6166e81ada8be421e625241",
-          "size": "4651721",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.3.2/core-ArduinoCore-rl78g23-fpb-p64-2.3.2.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.3.2.zip",
+          "checksum": "SHA-256:43e92673d6235091cd07587baf091f91e8540c9a56ffa86c61339e8ce05a0d55",
+          "size": "4651755",
           "boards": [
             {
               "name": "RL78/G23-64p Fast Prototyping Board"
