@@ -1,35 +1,37 @@
 {
   "packages": [
     {
-      "name": "renesas", 
-      "maintainer": "Renesas Electronics Corporation", 
-      "websiteURL": "https://github.com/renesas/Arduino", 
-      "email": "Middle_support@lm.renesas.com", 
+      "name": "renesas",
+      "maintainer": "Renesas Electronics Corporation",
+      "websiteURL": "https://github.com/renesas/Arduino",
+      "email": "Middle_support@lm.renesas.com",
       "platforms": [
         {
-          "name": "RL78/G15-20p Fast Prototyping Board", 
-          "architecture": "rl78g15_fpb_p20", 
-          "version": "1.2.0", 
+          "name": "RL78/G15-20p Fast Prototyping Board",
+          "architecture": "rl78g15_fpb_p20",
+          "version": "1.2.1",
           "category": "Contributed", 
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78g15_fpb_20p/releases/download/rl78-1.2.0/Library-rl78g15-fpb-1.2.0.zip", 
-          "archiveFileName": "Library-rl78g15-fpb-1.2.0.zip", 
-          "checksum": "SHA-256:c441344dce691fa57eac1400e031b218ce9aad266af918f4484f1cb410b0c4f7", 
-          "size": "1620012", 
+          "url": "https://github.com/renesas/ArduinoCore-rl78g15_fpb_20p/releases/download/rl78-1.2.1/Library-rl78g15-fpb-1.2.1.zip",
+          "archiveFileName": "Library-rl78g15-fpb-1.2.1.zip",
+          "checksum": "SHA-256:2652439ce43f61b92ffbac65b67980b5b6be1be4407bce79bc5f1a4fa12a1864",
+          "size": "1614211",
           "boards": [
-            {"name": "RL78/G15-20p Fast Prototyping Board"}
+            {
+              "name": "RL78/G15-20p Fast Prototyping Board"
+            }
           ], 
           "toolsDependencies": [
             {
-              "name": "llvm-rl78", 
-              "packager": "renesas", 
-              "version": "10.0.0.202310"
+              "name": "llvm-rl78",
+              "packager": "renesas",
+              "version": "17.0.1.202406"
             }, 
             {
-              "name": "rl78", 
-              "packager": "renesas", 
+              "name": "rl78",
+              "packager": "renesas",
               "version": "1.1.0-g1x"
             }
           ]
@@ -37,27 +39,27 @@
       ], 
       "tools": [
         {
-          "name": "llvm-rl78", 
-          "version": "10.0.0.202310", 
+          "name": "llvm-rl78",
+          "version": "17.0.1.202406",
           "systems": [
             {
-              "host": "i686-mingw32", 
-              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/10.0.0.202310/llvm-10.0.0.202310-rl78-elf.zip", 
-              "archiveFileName": "llvm-10.0.0.202310-rl78-elf.zip", 
-              "checksum": "SHA-256:9d09a94b0703aa50e428ca914864a88e162423352b7a9b6d2dd0efa7aaa5a5ab", 
-              "size": "149055733"
+              "host": "i686-mingw32",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202406/llvm-17.0.1.202406-rl78-elf.zip",
+              "archiveFileName": "llvm-17.0.1.202406-rl78-elf.zip",
+              "checksum": "SHA-256:e290eeb95974f61c20677c125790d3c9e297449ddbb6bddff6c9b64de45fb41b",
+              "size": "377831692"
             }
           ]
         }, 
         {
-          "name": "rl78", 
-          "version": "1.1.0-g1x", 
+          "name": "rl78",
+          "version": "1.1.0-g1x",
           "systems": [
             {
-              "host": "i686-mingw32", 
-              "url": "https://github.com/renesas/ArduinoCore-rl78g15_fpb_20p/releases/download/rl78-1.2.0/win32-tool-rl78g1x-1.1.0.zip", 
-              "archiveFileName": "win32-tool-rl78g1x-1.1.0.zip", 
-              "checksum": "SHA-256:8818a398fc910fb15413d2b9de4ca30d2cad7dbaf58cbdb95a5e94ba2cd1bf6b", 
+              "host": "i686-mingw32",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g15_fpb_20p/releases/download/rl78-1.2.1/win32-tool-rl78g1x-1.1.0.zip",
+              "archiveFileName": "win32-tool-rl78g1x-1.1.0.zip",
+              "checksum": "SHA-256:8818a398fc910fb15413d2b9de4ca30d2cad7dbaf58cbdb95a5e94ba2cd1bf6b",
               "size": "191192"
             }
           ]
