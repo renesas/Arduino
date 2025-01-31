@@ -9,15 +9,15 @@
         {
           "name": "RL78/G23-64p Fast Prototyping Board",
           "architecture": "rl78g23_fpb_p64",
-          "version": "2.4.0",
+          "version": "2.4.1",
           "category": "Contributed", 
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.0/core-ArduinoCore-rl78g23-fpb-p64-2.4.0.zip",
-          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.4.0.zip",
-          "checksum": "SHA-256:ceae32a4ea4fd851ea76d459580435b1d3a479393f2ca925821e7a0f07abf980",
-          "size": "4636564",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.1/core-ArduinoCore-rl78g23-fpb-p64-2.4.1.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.4.1.zip",
+          "checksum": "SHA-256:4eb821afc7b819ca6121368069bdac86104875379f12f71eacebafd01967a4a2",
+          "size": "4636508",
           "boards": [
             {
               "name": "RL78/G23-64p Fast Prototyping Board"
@@ -71,21 +71,21 @@
           "systems": [
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.0/x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.1/x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
               "archiveFileName": "x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
               "checksum": "SHA-256:aee9025e3149340a545c5e1815b4df2c8a022ab5e389f3421bde6e6886f122ef",
               "size": "138937"
             },
             {
               "host": "arm64-apple-darwin",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.0/arm64-apple-darwin-tool-rl78g2x-1.1.0.zip",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.1/arm64-apple-darwin-tool-rl78g2x-1.1.0.zip",
               "archiveFileName": "arm64-apple-darwin-tool-rl78g2x-1.1.0.zip",
               "checksum": "SHA-256:3faea9032746ab861df8d43ddb0a3e36d357984984dbf8e15919e1bc4d631b5a",
               "size": "47799"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.0/win32-tool-rl78g2x-1.2.1.zip",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.1/win32-tool-rl78g2x-1.2.1.zip",
               "archiveFileName": "win32-tool-rl78g2x-1.2.1.zip",
               "checksum": "SHA-256:832042bf716d8a8cea3ce10eca2c0faa2dae20518ea0e14f57ce8c2cda06ae3d",
               "size": "186894"

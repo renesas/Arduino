@@ -9,15 +9,15 @@
         {
           "name": "RL78/G15-20p Fast Prototyping Board",
           "architecture": "rl78g15_fpb_p20",
-          "version": "1.2.1",
+          "version": "1.2.2",
           "category": "Contributed", 
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78g15_fpb_20p/releases/download/rl78-1.2.1/Library-rl78g15-fpb-1.2.1.zip",
-          "archiveFileName": "Library-rl78g15-fpb-1.2.1.zip",
-          "checksum": "SHA-256:2652439ce43f61b92ffbac65b67980b5b6be1be4407bce79bc5f1a4fa12a1864",
-          "size": "1614211",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g15_fpb_20p/releases/download/rl78-1.2.2/Library-rl78g15-fpb-1.2.2.zip",
+          "archiveFileName": "Library-rl78g15-fpb-1.2.2.zip",
+          "checksum": "SHA-256:71cebac81dcac6ae34ef9bfe9de780827867a214ca86dbd6a584e31652e93feb",
+          "size": "1604597",
           "boards": [
             {
               "name": "RL78/G15-20p Fast Prototyping Board"
@@ -57,7 +57,7 @@
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g15_fpb_20p/releases/download/rl78-1.2.1/win32-tool-rl78g1x-1.1.0.zip",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g15_fpb_20p/releases/download/rl78-1.2.2/win32-tool-rl78g1x-1.1.0.zip",
               "archiveFileName": "win32-tool-rl78g1x-1.1.0.zip",
               "checksum": "SHA-256:8818a398fc910fb15413d2b9de4ca30d2cad7dbaf58cbdb95a5e94ba2cd1bf6b",
               "size": "191192"
