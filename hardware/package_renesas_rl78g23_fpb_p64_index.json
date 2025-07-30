@@ -9,15 +9,15 @@
         {
           "name": "RL78/G23-64p Fast Prototyping Board",
           "architecture": "rl78g23_fpb_p64",
-          "version": "2.4.2",
+          "version": "2.5.0",
           "category": "Contributed", 
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.2/core-ArduinoCore-rl78g23-fpb-p64-2.4.2.zip",
-          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.4.2.zip",
-          "checksum": "SHA-256:b42398d41cb73c7e1441fa17f4198618cdf4f81825b807dbbdfce759d4739fb6",
-          "size": "4637620",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.5.0/core-ArduinoCore-rl78g23-fpb-p64-2.5.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g23-fpb-p64-2.5.0.zip",
+          "checksum": "SHA-256:4ce64e6bab142b05674b9bfb90a4c39324dea0712ab457a9653797072bbef79b",
+          "size": "4637950",
           "boards": [
             {
               "name": "RL78/G23-64p Fast Prototyping Board"
@@ -33,6 +33,11 @@
               "name": "rl78",
               "packager": "renesas",
               "version": "1.2.1-g2x"
+            },
+            {
+              "name": "gdb-rl78",
+              "packager": "renesas",
+              "version": "2025-04_00"
             }
           ]
         }
@@ -71,24 +76,51 @@
           "systems": [
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.2/x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.5.0/x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
               "archiveFileName": "x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
               "checksum": "SHA-256:aee9025e3149340a545c5e1815b4df2c8a022ab5e389f3421bde6e6886f122ef",
               "size": "138937"
             },
             {
               "host": "arm64-apple-darwin",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.2/arm64-apple-darwin-tool-rl78g2x-1.1.0.zip",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.5.0/arm64-apple-darwin-tool-rl78g2x-1.1.0.zip",
               "archiveFileName": "arm64-apple-darwin-tool-rl78g2x-1.1.0.zip",
               "checksum": "SHA-256:3faea9032746ab861df8d43ddb0a3e36d357984984dbf8e15919e1bc4d631b5a",
               "size": "47799"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.4.2/win32-tool-rl78g2x-1.2.1.zip",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.5.0/win32-tool-rl78g2x-1.2.1.zip",
               "archiveFileName": "win32-tool-rl78g2x-1.2.1.zip",
               "checksum": "SHA-256:832042bf716d8a8cea3ce10eca2c0faa2dae20518ea0e14f57ce8c2cda06ae3d",
               "size": "186894"
+            }
+          ]
+        },
+        {
+          "name": "gdb-rl78",
+          "version": "2025-04_00",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.5.0/gdb-rl78_2025-04_00_linux.zip",
+              "archiveFileName": "gdb-rl78_2025-04_00_linux.zip",
+              "checksum": "SHA-256:c12de80f3f45a281b9618bff3e3f0a03aabf749da49cf05bf501d73c84f15d75",
+              "size": "70679706"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.5.0/gdb-rl78_2025-04_00_macos.zip",
+              "archiveFileName": "gdb-rl78_2025-04_00_macos.zip",
+              "checksum": "SHA-256:194996ace6e33aeecdba71e2f02f88fa5949aa85973f1d07bdc4de1a878b5e8e",
+              "size": "66977577"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p/releases/download/rl78-2.5.0/gdb-rl78_2025-04_00_windows.zip",
+              "archiveFileName": "gdb-rl78_2025-04_00_windows.zip",
+              "checksum": "SHA-256:d7711a5c7460796b85dc2ea0dde72613ee8a87f2e4843dd45bc0fc115e560e24",
+              "size": "92440729"
             }
           ]
         }
