@@ -1,0 +1,98 @@
+{
+  "packages": [
+    {
+      "name": "renesas",
+      "maintainer": "Renesas Electronics Corporation",
+      "websiteURL": "https://github.com/renesas/Arduino/wiki",
+      "email": "Middle_support@lm.renesas.com",
+      "platforms": [
+        {
+          "name": "FPB-RL78L23",
+          "architecture": "rl78l23_fpb",
+          "version": "1.0.0",
+          "category": "Contributed", 
+          "help": {
+            "online": "https://github.com/renesas/Arduino/wiki"
+          }, 
+          "url": "https://github.com/renesas/ArduinoCore-rl78l23_fpb/releases/download/rl78-1.0.0/core-ArduinoCore-rl78l23-fpb-1.0.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78l23-fpb-1.0.0.zip",
+          "checksum": "SHA-256:3c06733b33a4a1c6c47fe35017dc2983a4484ab25a26cb11ae267fb8b56fd13e",
+          "size": "1998412",
+          "boards": [
+            {
+              "name": "FPB-RL78L23"
+            }
+          ], 
+          "toolsDependencies": [
+            {
+              "name": "llvm-rl78",
+              "packager": "renesas",
+              "version": "17.0.1.202412"
+            }, 
+            {
+              "name": "rl78",
+              "packager": "renesas",
+              "version": "1.0.0-l2x"
+            }
+          ]
+        }
+      ], 
+      "tools": [
+        {
+          "name": "llvm-rl78",
+          "version": "17.0.1.202412",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202412/llvm-17.0.1.202412-rl78-elf.tar.gz",
+              "archiveFileName": "llvm-17.0.1.202412-rl78-elf.tar.gz",
+              "checksum": "SHA-256:cc3d11632c795f9cc423eb554c7c0462196defae584fcad9cb8d377319eb538e",
+              "size": "416760171"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202412/llvm-17.0.1.202412-rl78-elf_macOS.tar.gz",
+              "archiveFileName": "llvm-17.0.1.202412-rl78-elf_macOS.tar.gz",
+              "checksum": "SHA-256:af98642283492995e6b43cd10d4f7ee386c85b2488beff98b463529b9cbb93be",
+              "size": "495443845"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202412/llvm-17.0.1.202412-rl78-elf.zip",
+              "archiveFileName": "llvm-17.0.1.202412-rl78-elf.zip",
+              "checksum": "SHA-256:4f0789a36a903380c8d6de5e00a87a698bfc7583e4cc7e33530babfe6d3faea8",
+              "size": "472980511"
+            }
+          ]
+        }, 
+        {
+          "name": "rl78",
+          "version": "1.0.0-l2x",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/renesas/ArduinoCore-rl78l23_fpb/releases/download/rl78-1.0.0/x86_64-linux-gnu-tool-rl78l2x-1.0.0.tar.gz",
+              "archiveFileName": "x86_64-linux-gnu-tool-rl78l2x-1.0.0.tar.gz",
+              "checksum": "SHA-256:482673e3c411b81b7bf8fc1adf8acb2c51f1dec0f6ecd201aaa0f4bcd327cdd1",
+              "size": "135805"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/renesas/ArduinoCore-rl78l23_fpb/releases/download/rl78-1.0.0/arm64-apple-darwin-tool-rl78l2x-1.0.0.zip",
+              "archiveFileName": "arm64-apple-darwin-tool-rl78l2x-1.0.0.zip",
+              "checksum": "SHA-256:f8f78011395c27ed4a6906037b59df69665eecc932a5cf36c3bdf531e38efefc",
+              "size": "48030"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/renesas/ArduinoCore-rl78l23_fpb/releases/download/rl78-1.0.0/win32-tool-rl78l2x-1.0.0.zip",
+              "archiveFileName": "win32-tool-rl78l2x-1.0.0.zip",
+              "checksum": "SHA-256:8c5b355fd6ac173a5029a46c0f9246944ed8c47557d22fc6c961715cd518b71b",
+              "size": "186606"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
