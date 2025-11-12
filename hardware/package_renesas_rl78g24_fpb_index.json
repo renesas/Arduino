@@ -3,7 +3,7 @@
     {
       "name": "renesas",
       "maintainer": "Renesas Electronics Corporation",
-      "websiteURL": "https://github.com/renesas/Arduino",
+      "websiteURL": "https://github.com/renesas/Arduino/wiki",
       "email": "Middle_support@lm.renesas.com",
       "platforms": [
         {
