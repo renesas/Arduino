@@ -9,15 +9,15 @@
         {
           "name": "RL78/G22 Fast Prototyping Board",
           "architecture": "rl78g22_fpb",
-          "version": "2.5.0",
+          "version": "2.6.0",
           "category": "Contributed", 
           "help": {
             "online": "https://github.com/renesas/Arduino/wiki"
           }, 
-          "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.5.0/core-ArduinoCore-rl78g22-fpb-2.5.0.zip",
-          "archiveFileName": "core-ArduinoCore-rl78g22-fpb-2.5.0.zip",
-          "checksum": "SHA-256:7958FD79C3661D1C94A57DE2EEA07B05D536EBB63090C529C76E40B9D1F869F4",
-          "size": "4521896",
+          "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.6.0/core-ArduinoCore-rl78g22-fpb-2.6.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78g22-fpb-2.6.0.zip",
+          "checksum": "SHA-256:2C88B19CA3F1B6DEE99B6FF3E141CDF85CD945D83B5D07B5056F5D363027D84B",
+          "size": "4596620",
           "boards": [
             {
               "name": "RL78/G22 Fast Prototyping Board"
@@ -27,12 +27,17 @@
             {
               "name": "llvm-rl78",
               "packager": "renesas",
-              "version": "17.0.1.202406"
+              "version": "17.0.1.202506"
             }, 
             {
               "name": "rl78",
               "packager": "renesas",
               "version": "1.2.1-g2x"
+            },
+            {
+              "name": "gdb-rl78",
+              "packager": "renesas",
+              "version": "2025-04_00"
             }
           ]
         }
@@ -40,28 +45,28 @@
       "tools": [
       {
           "name": "llvm-rl78",
-          "version": "17.0.1.202406",
+          "version": "17.0.1.202506",
           "systems": [
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202406/llvm-17.0.1.202406-rl78-elf.tar.gz",
-              "archiveFileName": "llvm-17.0.1.202406-rl78-elf.tar.gz",
-              "checksum": "SHA-256:7244e9ae687b3e36522aa3bfc5a016a54d69ebcedd6d85198bff9a07d3da6bfe",
-              "size": "382683659"
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202506/llvm-17.0.1.202506-rl78-elf.tar.gz",
+              "archiveFileName": "llvm-17.0.1.202506-rl78-elf.tar.gz",
+              "checksum": "SHA-256:617123B190FEB240718ABF0BCBAC94C3B3F0704070B1C11E8C32DE9AC45DB67D",
+              "size": "440355358"
             },
             {
               "host": "arm64-apple-darwin",
-              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202406/llvm-17.0.1.202406-rl78-elf_macOS.tar.gz",
-              "archiveFileName": "llvm-17.0.1.202406-rl78-elf_macOS.tar.gz",
-              "checksum": "SHA-256:920e4456e690eb7c129a11676b41aadb4f70c5fd1d3617f10cf48258d1072ee8",
-              "size": "387033321"
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202506/llvm-17.0.1.202506-rl78-elf_macOS.tar.gz",
+              "archiveFileName": "llvm-17.0.1.202506-rl78-elf_macOS.tar.gz",
+              "checksum": "SHA-256:9677222E7E19A2A4A1D9A2F16C41DF25BBC828E7D254ADA835C298EFC78F3EBC",
+              "size": "494343601"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202406/llvm-17.0.1.202406-rl78-elf.zip",
-              "archiveFileName": "llvm-17.0.1.202406-rl78-elf.zip",
-              "checksum": "SHA-256:e290eeb95974f61c20677c125790d3c9e297449ddbb6bddff6c9b64de45fb41b",
-              "size": "377831692"
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202506/llvm-17.0.1.202506-rl78-elf.zip",
+              "archiveFileName": "llvm-17.0.1.202506-rl78-elf.zip",
+              "checksum": "SHA-256:E31ADCF3C8F14DBA4D38F1EC756C9481C103A18266424067FC632E3837891F15",
+              "size": "470023663"
             }
           ]
         }, 
@@ -71,24 +76,51 @@
           "systems": [
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.5.0/x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.6.0/x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
               "archiveFileName": "x86_64-linux-gnu-tool-rl78g2x-1.0.1.tar.gz",
               "checksum": "SHA-256:aee9025e3149340a545c5e1815b4df2c8a022ab5e389f3421bde6e6886f122ef",
               "size": "138937"
             },
             {
               "host": "arm64-apple-darwin",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.5.0/arm64-apple-darwin-tool-rl78g2x-1.1.0.zip",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.6.0/arm64-apple-darwin-tool-rl78g2x-1.1.0.zip",
               "archiveFileName": "arm64-apple-darwin-tool-rl78g2x-1.1.0.zip",
               "checksum": "SHA-256:3faea9032746ab861df8d43ddb0a3e36d357984984dbf8e15919e1bc4d631b5a",
               "size": "47799"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.5.0/win32-tool-rl78g2x-1.2.1.zip",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.6.0/win32-tool-rl78g2x-1.2.1.zip",
               "archiveFileName": "win32-tool-rl78g2x-1.2.1.zip",
               "checksum": "SHA-256:832042bf716d8a8cea3ce10eca2c0faa2dae20518ea0e14f57ce8c2cda06ae3d",
               "size": "186894"
+            }
+          ]
+        },
+        {
+          "name": "gdb-rl78",
+          "version": "2025-04_00",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.6.0/gdb-rl78_2025-04_00_linux.zip",
+              "archiveFileName": "gdb-rl78_2025-04_00_linux.zip",
+              "checksum": "SHA-256:c12de80f3f45a281b9618bff3e3f0a03aabf749da49cf05bf501d73c84f15d75",
+              "size": "70679706"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.6.0/gdb-rl78_2025-04_00_macos.zip",
+              "archiveFileName": "gdb-rl78_2025-04_00_macos.zip",
+              "checksum": "SHA-256:194996ace6e33aeecdba71e2f02f88fa5949aa85973f1d07bdc4de1a878b5e8e",
+              "size": "66977577"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/renesas/ArduinoCore-rl78g22_fpb/releases/download/rl78-2.6.0/gdb-rl78_2025-04_00_windows.zip",
+              "archiveFileName": "gdb-rl78_2025-04_00_windows.zip",
+              "checksum": "SHA-256:d7711a5c7460796b85dc2ea0dde72613ee8a87f2e4843dd45bc0fc115e560e24",
+              "size": "92440729"
             }
           ]
         }
