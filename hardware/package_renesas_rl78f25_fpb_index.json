@@ -1,0 +1,98 @@
+{
+  "packages": [
+    {
+      "name": "renesas",
+      "maintainer": "Renesas Electronics Corporation",
+      "websiteURL": "https://github.com/renesas/Arduino/wiki",
+      "email": "Middle_support@lm.renesas.com",
+      "platforms": [
+        {
+          "name": "FPB-RL78F25",
+          "architecture": "rl78f25_fpb",
+          "version": "0.5.0",
+          "category": "Contributed", 
+          "help": {
+            "online": "https://github.com/renesas/Arduino/wiki"
+          }, 
+          "url": "https://github.com/renesas/ArduinoCore-rl78f25_fpb/releases/download/rl78-0.5.0-pre-release/core-ArduinoCore-rl78f25-fpb-0.5.0.zip",
+          "archiveFileName": "core-ArduinoCore-rl78f25-fpb-0.5.0.zip",
+          "checksum": "SHA-256:fb51c3ebe823b081dc11c1dde1809a1b09f87b1392dec6472599f62f372bb4b3",
+          "size": "2040176",
+          "boards": [
+            {
+              "name": "FPB-RL78F25"
+            }
+          ], 
+          "toolsDependencies": [
+            {
+              "name": "llvm-rl78",
+              "packager": "renesas",
+              "version": "17.0.1.202512"
+            }, 
+            {
+              "name": "rl78",
+              "packager": "renesas",
+              "version": "1.0.0-f2x"
+            }
+          ]
+        }
+      ], 
+      "tools": [
+        {
+          "name": "llvm-rl78",
+          "version": "17.0.1.202512",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202512/llvm-17.0.1.202512-rl78-elf.tar.gz",
+              "archiveFileName": "llvm-17.0.1.202512-rl78-elf.tar.gz",
+              "checksum": "SHA-256:dc2ae802324e767c478e87ce5224c775ef76efb7f1ce84194f1846bc98115b15",
+              "size": "426914122"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202512/llvm-17.0.1.202512-rl78-elf_macOS.tar.gz",
+              "archiveFileName": "llvm-17.0.1.202512-rl78-elf_macOS.tar.gz",
+              "checksum": "SHA-256:6a65e044a5a7a698478af84a90ffb528b59e0c7ca2445905cf5149e547167cd5",
+              "size": "494965697"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://llvm-gcc-renesas.com/downloads/download.php?s=cdn&f=rl78/17.0.1.202512/llvm-17.0.1.202512-rl78-elf.zip",
+              "archiveFileName": "llvm-17.0.1.202512-rl78-elf.zip",
+              "checksum": "SHA-256:9f506c6b9cd43e9ae2b56b759a246ca5061677a2b798de5c6f7e624c7f912cb6",
+              "size": "487515201"
+            }
+          ]
+        }, 
+        {
+          "name": "rl78",
+          "version": "1.0.0-f2x",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/renesas/ArduinoCore-rl78f25_fpb/releases/download/rl78-0.5.0-pre-release/x86_64-linux-gnu-tool-rl78f2x-1.0.0.tar.gz",
+              "archiveFileName": "x86_64-linux-gnu-tool-rl78f2x-1.0.0.tar.gz",
+              "checksum": "SHA-256:524e1c7edc7bd88bbcd47a035aee5c31b57678b98f8ebbc012e8d9be94c1f26f",
+              "size": "136676"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/renesas/ArduinoCore-rl78f25_fpb/releases/download/rl78-0.5.0-pre-release/arm64-apple-darwin-tool-rl78f2x-1.0.0.zip",
+              "archiveFileName": "arm64-apple-darwin-tool-rl78f2x-1.0.0.zip",
+              "checksum": "SHA-256:03577083adf2d03fe162743232f19f830a2083dbdabf9ae8c0baab0063200c75",
+              "size": "48483"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/renesas/ArduinoCore-rl78f25_fpb/releases/download/rl78-0.5.0-pre-release/win32-tool-rl78f2x-1.0.0.zip",
+              "archiveFileName": "win32-tool-rl78f2x-1.0.0.zip",
+              "checksum": "SHA-256:4b034a50a680f3a7886f22036512a7ca49ccb29d4d45e9ea12831963543c8a8e",
+              "size": "188627"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
